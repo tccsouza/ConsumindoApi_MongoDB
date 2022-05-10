@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "b7a10385-8f62-42da-a4b5-7fb2bb2b695d",
+		"name": "CatsApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Buscar Todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5295/api/Cats",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5295",
+					"path": [
+						"api",
+						"Cats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar Pelo Nome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5295/api/Cats/BucarNome/Bengal",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5295",
+					"path": [
+						"api",
+						"Cats",
+						"BucarNome",
+						"Bengal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar por Origem",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5295/api/Cats/BucarOrigin/Egypt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5295",
+					"path": [
+						"api",
+						"Cats",
+						"BucarOrigin",
+						"Egypt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar Por Temperamento",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5295/api/Cats/BuscarTemperament/Gentle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5295",
+					"path": [
+						"api",
+						"Cats",
+						"BuscarTemperament",
+						"Gentle"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
